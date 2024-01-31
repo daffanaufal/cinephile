@@ -34,4 +34,43 @@ footer span:first-child {
 footer span:last-child {
     color: white;
 }
+.kontenabout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Untuk membuat konten berada di tengah vertikal di halaman */
+}
+
+/* Konten teks */
+.kontenabout > div:nth-child(1) {
+    color: black;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding: 20px;
+    text-align: center; /* Untuk membuat teks berada di tengah horizontal */
+}
+
+/* Teks 'by' */
+.kontenabout > div:nth-child(2) {
+    color: black;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center; /* Untuk membuat teks berada di tengah horizontal */
+}
+
+/* Nama penulis */
+.kontenabout > div:nth-child(3) {
+    color: black;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center; /* Untuk membuat teks berada di tengah horizontal */
+}
+
 

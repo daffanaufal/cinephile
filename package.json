@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server .",
     "build": "webpack --config webpack.prod.js",
-    "start-dev": "webpack serve"
+    "start-dev-old": "webpack serve",
+    "start-dev": "webpack-dev-server --config webpack.dev.js",
+    "serve": "http-server dist --port 9000",
+    "build-serve":"npm run build && npm run serve"
   },
   "author": "Daffa Naufal Santoso",
   "license": "ISC",
